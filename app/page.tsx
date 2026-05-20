@@ -184,7 +184,7 @@ export default function Home() {
           <figure className="space-photo">
             <div
               className="space-photo-img"
-              style={{ backgroundImage: "url('/photo-work-desks.png')" }}
+              style={{ backgroundImage: "url('/photo-work-library.png')" }}
               aria-hidden="true"
             />
             <figcaption>
