@@ -189,7 +189,7 @@ export default function Home() {
             />
             <figcaption>
               <span className="cap-num">04</span>
-              <span className="cap-name">The Floor</span>
+              <span className="cap-name">The Library</span>
               <span className="cap-meta">Booths · Banquettes · Power</span>
             </figcaption>
           </figure>
