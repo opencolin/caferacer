@@ -269,6 +269,22 @@ body {
 .space-photo:hover .space-photo-img {
   transform: scale(1.03);
 }
+.space-photo.feature {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+.space-photo.feature .cap-num {
+  font-size: clamp(56px, 6vw, 88px);
+}
+.space-photo.feature .cap-name {
+  font-size: clamp(28px, 3vw, 44px);
+}
+.space-photo.feature .cap-meta {
+  font-size: 13px;
+}
+.space-photo.feature figcaption {
+  padding: 28px 30px 24px;
+}
 .space-photo::after {
   content: "";
   position: absolute;
@@ -317,9 +333,14 @@ body {
   .space { padding: 64px 6vw 80px; }
   .space-head { grid-template-columns: 1fr; gap: 16px; align-items: start; }
   .space-grid { grid-template-columns: repeat(2, 1fr); }
+  .space-photo.feature {
+    grid-column: 1 / span 2;
+    grid-row: auto;
+  }
 }
 @media (max-width: 520px) {
   .space-grid { grid-template-columns: 1fr; }
+  .space-photo.feature { grid-column: 1; }
 }
 
 .cta-band {

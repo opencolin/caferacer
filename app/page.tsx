@@ -157,7 +157,7 @@ export default function Home() {
               <span className="cap-meta">Three covered spots · Lift in back</span>
             </figcaption>
           </figure>
-          <figure className="space-photo">
+          <figure className="space-photo feature">
             <div
               className="space-photo-img"
               style={{ backgroundImage: "url('/photo-counter.png')" }}
